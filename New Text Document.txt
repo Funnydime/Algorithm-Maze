@@ -1,0 +1,29 @@
+public class Lab3_Rodriguez_Dimitri{
+
+     public static void main(String []args){
+        intArray cords = 0,0;
+        int Left = 0;
+        int Right = 1;
+        int Up = 2;
+        int Down = 3;
+        int dir [] = Left, Right, Up, Down;
+        
+        for i = 0, i != 100; i++;{
+            int chose = Math.random(dir);
+            if chose == Left {
+                dir(0) - 1;
+            }
+            if chose == Right {
+                dir(0) + 1;
+            }
+            if chose == Up {
+                dir(1) + 1;
+            }
+            if chose == Down{
+                dir(1) - 1;
+            }
+        }
+       
+        System.out.println(cords);
+     }
+}
